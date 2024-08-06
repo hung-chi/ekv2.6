@@ -8,6 +8,19 @@ This repository was forked from [EKV 2.6 rev.15](https://github.com/ekv26/model)
 ## Examples of ngspice
 The simulation examples of using ngspice can be found in [docs/notebooks](https://github.com/hung-chi/ekv2.6/tree/master/docs/notebooks/). The notebook [ekv26_nmos_dc](https://github.com/hung-chi/ekv2.6/tree/master/docs/notebooks/ekv26_nmos_dc.ipynb) gives a tutorial, covering the installation of ngspice and openVAF and a simple transistor simulation.
 
+## Installation
+
+To run ngspice and Jupyter Notebooks, it is recommended to create an virtual environmet using conda
+
+```sh
+conda env create -f environment.yml
+conda activate ngspice_ekv
+```
+
+The first line builds the conda environment from the environment.yml file, which lists the related packages. 
+The second line activates the environment just created.
+
+
 ## License 
 
 Licensed under the Educational Community License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
