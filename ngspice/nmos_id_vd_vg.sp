@@ -8,10 +8,10 @@ VS s 0 0
 VB b 0 0
 
 * model definitions:
-.include ../Modelcards/ekv26_0u5.par
+.include ../Modelcards/ekv26_0u15.par
 
 *OSDI EKV:
-N1 d g s b nch W=5e-6 L=0.5e-6
+N1 d g s b nmos W=5e-6 L=0.15e-6
 
 .control
 pre_osdi ../osdi/ekv26.osdi
